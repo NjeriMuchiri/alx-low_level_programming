@@ -1,15 +1,14 @@
-#include <stdio.h>
-
+#include <unistd.h>
+#include "main.h"
 /**
  *main - Prints _putchar 
  *
  *Return: Always 0 (Success)
  */
 
-int main()
+int _putchar(char c)
 {
-printf("_putchar\n");
-return 0;
+return (write(1, &c, 1));
 }
 
 
