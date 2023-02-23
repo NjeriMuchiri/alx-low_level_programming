@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_isupper - checks if characterr is an uppercase 
+ *_isupper - checks if parameter  is an uppercase character
  *@c: input character
  *Return: 1 if it is an uppercase character, 0 otherwise
  */
