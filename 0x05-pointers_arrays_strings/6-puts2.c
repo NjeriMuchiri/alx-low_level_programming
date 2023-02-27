@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *puts2 - prints one character out of two of a string
- *@str - input string
+ *@str: input string
  *Return: no return.
  */
 void puts2(char *str)
