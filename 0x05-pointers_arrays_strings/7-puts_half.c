@@ -20,5 +20,5 @@ else
 i = (count - 1) / 2;
 for (i++; i < count; i++)
 putchar(str[i]);
-putchar('\n'); 
+putchar('\n');
 }
