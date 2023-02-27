@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  *_strcpy - copies the string including null byte
- *beffer pointed to b dest 
  *@dest: destination
  *@src: source
  *Return: the pointer to dest
