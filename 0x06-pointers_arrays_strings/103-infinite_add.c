@@ -5,10 +5,9 @@
  * @n1: number one.
  * @n2: number two.
  * @r: buffer that the function will use to store the result.
- *if the result can't be stored in r
- *the function must return 0
  * @size_r: buffer size:
  * Return: the pointer to dest.
+ *otherwise the function must return 0
  */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
