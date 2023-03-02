@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include<stdio.h>
 /**
  * infinite_add - adds two numbers
  * @n1: number one.
@@ -7,14 +7,12 @@
  * @r: buffer that the function will use to store the result.
  * @size_r: buffer size.
  * Return: pointer to the result. 
- *if r can store the sum - a pointer to the result.
- *if r cannot store the sum - 0.
+ * if r can store the sum - a pointer to the result.
+ * if r cannot store the sum - 0.
  */
-
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 int c1 = 0, c2 = 0, op, bg, dr1, dr2, add = 0;
-
 while (*(n1 + c1) != '\0')
 c1++;
 while (*(n2 + c2) != '\0')
