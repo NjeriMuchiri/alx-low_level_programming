@@ -5,8 +5,9 @@
  * @n1: number one.
  * @n2: number two.
  * @r: buffer that the function will use to store the result.
- * @size_r: buffer size:
- * Return: if r can store the sum - a pointer t the result.
+ * @size_r: buffer size.
+ * Return: pointer to the result. 
+ *if r can store the sum - a pointer to the result.
  *if r cannot store the sum - 0.
  */
 
