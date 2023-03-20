@@ -2,9 +2,10 @@
 #include <stdio.h>
 /**
  *print_dog - function that prints the struct of the dog
- *@d: pointer of the dog
+ *@d: struct  dog
  *if an element of  d is NULL print nill
  *if d is NULL print nothing
+ *Return: no return
  */
 void print_dog(struct dog *d)
 {
