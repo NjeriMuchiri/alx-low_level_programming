@@ -2,7 +2,6 @@
 #include <stdlib.h>
 /**
  *new_dog - function that creates a new dog
- *dog_t - the struct of the dog
  *@name: dog's name
  *@age: age of the dog
  *@owner: owner of the dog
