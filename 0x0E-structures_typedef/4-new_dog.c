@@ -6,7 +6,8 @@
  *@name: dog's name
  *@age: age of the dog
  *@owner: owner of the dog
- *Return: structdog otherwise NULL if function fails 
+ *Return: struct dog 
+ *otherwise NULL if function fails 
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
