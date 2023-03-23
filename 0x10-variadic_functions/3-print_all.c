@@ -11,7 +11,7 @@ unsigned int i = 0, j, c = 0;
 char *str;
 const char t_arg[] = "cifs";
 va_start(anyth, format);
-while (format &&format[i])
+while (format && format[i])
 {
 j = 0;
 while (t_arg[j])
