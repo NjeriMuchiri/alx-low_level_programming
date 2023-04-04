@@ -14,3 +14,4 @@ h = h->next;
 nnodes++;
 }
 return (nnodes);
+}
