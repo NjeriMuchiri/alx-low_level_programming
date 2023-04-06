@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *set_bit - function that sets the value of a bit to 1 
+ *set_bit - function that sets the value of a bit to 1
  *at a given index
  *@n:pointer of  unsigned long int
  *@index: bit index starting from 0
