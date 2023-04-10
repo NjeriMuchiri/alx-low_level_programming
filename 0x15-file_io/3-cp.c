@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 int file_from, file_to, err_close;
 ssize_t nchars, nwr;
 char buff[1024];
-if (argc !=3)
+if (argc != 3)
 {
 dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to");
 exit(97);
