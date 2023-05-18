@@ -2,7 +2,7 @@
 /**
  * sum__dlistint - returns the sum of all the data
  * of a dlistint_t
- * @head: head of the linked list
+ * @head: head of the list
  * Return: sum of the data else return 0 if list is empty
 */
 int sum_dlistint(dlistint_t *head)
