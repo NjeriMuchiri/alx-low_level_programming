@@ -14,7 +14,7 @@ return (NULL);
 while (head->prev != NULL)
 head = head->prev;
 i = 0;
-while(head != NULL)
+while (head != NULL)
 {
 if (i == index)
 break;
