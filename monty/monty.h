@@ -91,6 +91,11 @@ int _strcmp(char *s1, char *s2);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void *_calloc(unsigned int nmemb, unsigned int size);
 
+/* double linked list functions */
+stack_t *add_dnodeint_end(stack_t **head, const int n);
+stack_t *add_dnodeint_beginning(stack_t **head, const int n);
+void free_dlistint(stack_t *head);
+
 /* main */
 void free_vglo(void);
 
