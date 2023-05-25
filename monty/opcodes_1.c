@@ -61,7 +61,7 @@ if (*doubly == NULL)
 {
 dprintf(2, "L%u: ", cline);
 dprintf(2, "can't print, stack empty\n");
-free_vlgo();
+free_vglo();
 exit(EXIT_FAILURE);
 }
 printf("%d\n", (*doubly)->n);

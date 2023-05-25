@@ -73,7 +73,7 @@ return (*head);
 void free_dlistint(stack_t *head)
 {
 stack_t *tmp;
-while  ((tmp == head) != NULL)
+while ((tmp == head) != NULL)
 {
 head = head->next;
 free(tmp);
