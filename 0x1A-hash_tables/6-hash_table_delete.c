@@ -11,7 +11,7 @@ hash_node_t *tmp1;
 hash_node_t *tmp2;
 if (ht == NULL)
 return;
-for (i = 0; i < ht-> size; i++)
+for (i = 0; i < ht->size; i++)
 {
 tmp1 = ht->array[i];
 while ((tmp2 = tmp1) != NULL)
