@@ -98,7 +98,7 @@ ht->stail = new;
  * @ht: pointer to the shash table
  * @key: key of the shash
  * @value: value to store
- * Return: 1 if successes, 0 if fails
+ * Return: 1 if succeeds, 0 if fails
  */
 int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 {
