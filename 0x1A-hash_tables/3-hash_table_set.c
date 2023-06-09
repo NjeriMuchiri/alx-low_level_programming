@@ -29,9 +29,9 @@ tmp->next = *head;
 return (*head);
 }
 /**
- * hash_table_set - adds a hash (key, value) to a given hash table
+ * hash_table_set - adds a hash key and value to a given hash table
  * @ht: pointer to the hash table
- * @key: key of the hash
+ * @key: the hash key
  * @value: value to store
  * Return: 1 if successes, 0 if fails
  */
