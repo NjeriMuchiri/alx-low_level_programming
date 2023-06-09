@@ -140,7 +140,8 @@ tmp = tmp->next;
 return (NULL);
 }
 /**
- * shash_table_print - function that prints the keys and values of the shash table
+ * shash_table_print - function that prints the keys
+ * and values of the shash table
  * @ht: pointer to the shash table
  * Return: no return
  */
