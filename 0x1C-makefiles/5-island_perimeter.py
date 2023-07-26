@@ -15,12 +15,12 @@ def island_perimeter(grid):
     edges = 0
     size = 0
 
-    for h in range(height):
-        for l in range(width):
-            if grid[h][l] == 1:
+    for hei in range(height):
+        for len in range(width):
+            if grid[hei][len] == 1:
                 size += 1
-                if (l > 0 and grid[h][l - 1] == 1):
+                if (len > 0 and grid[hei][len - 1] == 1):
                     edges += 1
-                if (h > 0 and grid[h - 1][l] == 1):
+                if (hei > 0 and grid[hei - 1][len] == 1):
                     edges += 1
     return size * 4 - edges * 2
