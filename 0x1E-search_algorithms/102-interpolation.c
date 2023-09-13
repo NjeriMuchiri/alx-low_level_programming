@@ -5,7 +5,7 @@
  * @array: the pointer to the first element of the array to search in
  * @size: the number of elements in array
  * @value: value to search for
- * Return: -1 if value s not present in array or if array is NULL 
+ * Return: -1 if value s not present in array or if array is NULL
  */
 int interpolation_search(int *array, size_t size, int value)
 {
